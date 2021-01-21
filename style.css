@@ -1,0 +1,178 @@
+/*
+Theme Name: Yoshiki Tajima Portfolioのテーマ
+Author:     Yoshiki Tajima (Jima)
+Author URL:
+Description:Yoshiki Tajima Portfolioのテーマです。
+Version:    1.0
+*/
+
+@charset "utf-8";
+
+body {
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    color: #333333;
+}
+
+header {
+    height: 650px;
+    background: url(images/laptop-2838921_1920.jpg) no-repeat center center;
+    background-size: cover;
+    min-width: 1000px;
+}
+
+.inner {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inner h2 {
+    padding-top: 5px;
+}
+
+header .inner {
+    text-align: center;
+}
+
+header nav {
+    font-family: fantasy;
+    width: 315px;
+    float: right;
+}
+
+header nav ul li {
+    font-family: 'Lobster',cursive;
+    display: inline-block;
+    font-size: 23px;
+    text-shadow: #000000 1px 1px;
+    margin: 0 5px;
+    padding-top: 20px;
+}
+
+header nav ul li a:visited {
+    color: #aa0088;
+}
+
+header nav ul li a:hover {
+    color: #bbbbbb;
+    transition: 0.5s;
+}
+
+header #BigT {
+    clear: both;
+    padding-top: 180px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: fantasy ;
+    color: #ffffff;
+    text-shadow: #000000 5px 3px;
+    font-size: 6.5em;
+}
+
+header h2 {
+    font-family: fantasy;
+    color: #aaaaaa;
+    text-shadow: #000000 5px 3px;
+    font-size: 3em;
+    padding-top: 5px;
+}
+
+#content h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #ffdd11;
+    text-shadow: #000000 1px 0.5px;
+}
+
+#content h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px
+}
+
+#content .inner {
+    padding: 10px 0 50px;
+}
+
+/* 自己紹介 */
+#myface {
+    width: 300px;
+    float: left;
+}
+
+#about dl {
+    width: 620px;
+    float: right;
+}
+
+#about dl dt {
+    font-size: 1.7em;
+    padding-top: 25px;
+}
+
+#about dl dt:first-child {
+    padding: 0;
+}
+
+#about dl dd{
+    padding: 10px 0 5px;
+    text-indent: 15px;
+}
+
+#about dl dd:last-child {
+    padding-bottom: 40px;
+}
+
+/* 作品紹介 */
+#portfolio {
+    background-color: #3399aa;
+    color: #ffffff;
+}
+
+#portfolio ul {
+    text-align: center;
+}
+
+#portfolio li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 50px;
+}
+
+
+/* お問い合わせ・SNS */
+#contact {
+    padding-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#socialbanners {
+    height: 80px;
+}
+
+#socialbanners ul {
+    text-align: center;
+}
+
+#socialbanners ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+footer {
+    height: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px 50px;
+    text-align: center;
+}
+
+footer small {
+    font-family: fantasy;
+}
