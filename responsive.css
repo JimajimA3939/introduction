@@ -1,0 +1,32 @@
+/* タブレット対応 */
+@media screen and (max-width: 1000px) {
+    .inner {
+        width: auto;
+    }
+
+    header .inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav {
+        float: none;
+        position: fixed;
+        top: 10px;
+        text-align: center;
+    }
+    
+    #about dl {
+        width: auto;
+    }
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 670px) {
+    #portfolio li {
+        display: block;
+    }
+
+}
